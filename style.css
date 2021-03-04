@@ -177,10 +177,8 @@ a {text-decoration: none;}
     left:300px;
     background:rgba(255,255,255,.9);
   }
-  #content {
-    position:relative;
-    left:0;
-  }
+  #content {position:relative;left:0;}
+  
   .open-menu #content {left:300px;}
 
   #sidenav {left:-300px;}
