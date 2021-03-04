@@ -147,7 +147,7 @@ a {text-decoration: none;}
 }
 #main-nav li a .fa {
 	margin: 0 1em 0 3em;
-	height: 60px;
+	height: 55px;
 	align-items: center;
 	display: flex;
 	justify-content: center;
@@ -159,6 +159,12 @@ a {text-decoration: none;}
 	margin:-50px 0 0 -50px;
 	background:white;
 	padding:50px;
+}
+.nav-footer {
+	margin-top: 3em;
+    text-align: center;
+	color: #f1f1f1;
+	display: block;
 }
 
 @media only screen and (max-width: 60em) { /* 960px */
@@ -178,7 +184,7 @@ a {text-decoration: none;}
     background:rgba(255,255,255,.9);
   }
   #content {position:relative;left:0;}
-  
+
   .open-menu #content {left:300px;}
 
   #sidenav {left:-300px;}
