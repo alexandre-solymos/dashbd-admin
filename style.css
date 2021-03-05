@@ -127,6 +127,7 @@ a {text-decoration: none;}
 	padding:0;
 	width:100%;
 	overflow-y:scroll;
+	height:400px;
 }
 #main-nav li a {
 	display:flex;
