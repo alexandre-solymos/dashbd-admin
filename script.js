@@ -5,9 +5,9 @@ function MenuToggle() {
 
 
 function Active(e) {
-  var elements = document.querySelector(".active");
-  if(elements !==null){
-    elements.classList.remove("active");
+  var el = document.querySelector('#main-nav a.active');
+  if (el !== null) {
+    el.classList.remove('active');
   }
- e.target.className = "active";
+  e.target.className = "active";
 }
