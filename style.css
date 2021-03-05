@@ -35,14 +35,11 @@ a {text-decoration: none;}
 	z-index:1;
 }
 #header_logo {
-	display: flex;
-	justify-content: center;
-	height: 100px;
+	position: absolute;
+    left: 50%;
+    top: 2em;
 }
-#header_logo a {
-	align-items: center;
-	display: flex;
-}
+
 #sidenav {
 	position:fixed;
 	width:300px;
