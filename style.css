@@ -115,7 +115,7 @@ a {text-decoration: none;}
 
 #menu-toggle:hover {color:#ef8700;}
 
-#content {padding:150px 50px 50px 350px;}
+#content {padding:9em 3.2em 3.2em 22em;}
 
 #content p {
 	padding:0;
@@ -212,7 +212,7 @@ a.active {
     left:300px;
     color:#0f92d1;
   }
-  #content {padding:130px 30px 30px 30px;}
+  #content {padding:8em 2em 2em 2em;}
 
   #main-nav {margin:65px 0 0 0;height: 400px;}
  
