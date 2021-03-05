@@ -1,8 +1,13 @@
-$('#menu-toggle,#menu-overlay').click(function(){
-  $('body').toggleClass('open-menu');
-});
+function MenuToggle() {
+  var element = document.querySelector("body");
+  element.classList.toggle("open-menu");
+}
 
-$('#main-nav li a').click(function(){
-  $('#main-nav li').removeClass('active');
-  $(this).parent().addClass('active')
-});
+
+function Active(e) {
+  var elements = document.querySelector(".active");
+  if(elements !==null){
+    elements.classList.remove("active");
+  }
+ e.target.className = "active";
+}
