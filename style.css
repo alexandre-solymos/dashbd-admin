@@ -10,9 +10,7 @@
 	border-radius: 1em;
 }
  
-*::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
+*::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
  
 *::-webkit-scrollbar-thumb {background-color: darkgrey;}
 
@@ -152,7 +150,6 @@ a.active {
 	justify-content: center;
 }
 #main-nav li.active a .fa {color:#98cde6;}
-
 
 #content-header {
 	width:calc(100% + 100px);
